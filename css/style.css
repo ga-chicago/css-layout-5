@@ -1,0 +1,96 @@
+body {
+	margin: 10px auto;
+	width: 960px;
+	height: 750px;
+	/*border: 1px solid orange;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.topleft-box, .topright-box, nav, .main-top, .main-right, .main-center, .main-bottom-box, footer {
+	background-color: lightseagreen;
+	border: 1px solid black;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	height: 15%;
+	width: auto;
+	/*border: 1px solid black;*/
+}
+.topleft-box, .topright-container {
+	width: 25%;
+	/*border: 1px solid red;*/
+}
+.topright-container {
+	width: 65%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.topright-box {
+	width: 100px;
+	height: 40px;
+	margin-left: 10px;
+}
+main {
+	display: flex;
+	justify-content: space-between;
+	width: auto;
+	height: 65%;
+}
+nav {
+	width: 17.5%;
+	height: auto;
+}
+.right-container {
+	width: 80%;
+	height: auto;
+	/*background-color: lightyellow;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.main-top {
+	width: auto;
+	height: 20%;
+}
+.main-content-container {
+	display: flex;
+	justify-content: space-between;
+	width: auto;
+	height: 41%;
+	/*border: 1px solid green;*/
+}
+.main-center {
+	width: 74%;
+	height: auto;
+}
+.main-right {
+	width: 22.5%;
+	height: auto;
+}
+.main-bottom-container {
+	width: auto;
+	height: 30%;
+	display: flex;
+	justify-content: space-between;
+}
+.main-bottom-box {
+	width: 22.5%;
+	height: auto;
+}
+footer {
+	width: auto;
+	height: 15%;
+}
+
+
+
+
+
+
+
+
+
+
